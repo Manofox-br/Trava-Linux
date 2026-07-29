@@ -2,6 +2,13 @@
 
 #### AVISO: não me responsabilizo por qualquer dano ao computador, o uso deste projeto é por seu pc em risco.
 
+--- 
+
+## 📚 Requisitos
+1. Executar em uma distribuição Linux;
+2. Ter o python instala (caso não tenha, clique [aqui](https://www.python.org/downloads/) e instale);
+3. Opcional, mas ajuda na instalação do repositório. Tenha a blibioteca `git` instalada, use o comando ``sudo apt install git`` para isso.
+
 ---
 
 ## 📝 Como executar:
@@ -19,12 +26,6 @@ Rode o arquivo ``main.py`` para inciar o teste de desempenho, use o comando abai
 
 ---
 
-## 📚 Requisitos
-1. Executar em uma distribuição Linux;
-2. Ter o python instala (caso não tenha, clique [aqui]() e instale);
-3. Opcional, mas ajuda na instalação do repositório. Tenha a blibioteca `git` instalada, use o comando ``sudo apt install`` para isso.
-
----
 ## ✨ Recomendações
 Para melhorar o teste, defina seu navegador padrão para o fire fox.
 
