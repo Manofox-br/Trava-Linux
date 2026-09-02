@@ -2,9 +2,9 @@
 
 # Script de teste de I/O com dd
 echo "Criando arquivo de 1GB para teste..."
-dd if=/dev/zero of=teste_io.txt bs=1M count=1024
+dd if=/dev/zero of="id_$random".txt bs=1024M count=5120
 
 echo "Lendo arquivo para simular carga..."
-dd if=teste_io.txt of=/dev/null bs=1M
+dd if=teste_io.txt of=/dev/null bs=1024M
 
 echo "Teste concluído."
